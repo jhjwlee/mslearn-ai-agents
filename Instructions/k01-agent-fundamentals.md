@@ -60,9 +60,10 @@ lab:
    You answer questions about expenses based on the expenses policy data.
    If a user wants to submit an expense claim, you get their email address, a description of the claim, and the amount to be claimed and write the claim details to a text file that the user can download.
  ```
-    이 지침은 에이전트의 역할과 행동 방식을 정의하는 핵심적인 부분입니다. 에이전트는 이 지침에 따라 경비 정책 보조원으로서 작동하게 됩니다.
 
-    ![Screenshot of the AI agent setup page in Azure AI Foundry portal.](./Media/ai-agent-setup.png)
+이 지침은 에이전트의 역할과 행동 방식을 정의하는 핵심적인 부분입니다. 에이전트는 이 지침에 따라 경비 정책 보조원으로서 작동하게 됩니다.
+
+![Screenshot of the AI agent setup page in Azure AI Foundry portal.](./Media/ai-agent-setup.png)
 
 4.  **Setup** 창 아래쪽의 **Knowledge** 헤더 옆에 있는 **+ Add**를 선택합니다. 그런 다음 **Add knowledge** 대화 상자에서 **Files**를 선택합니다.
 5.  **Adding files** 대화 상자에서 `Expenses_Vector_Store`라는 이름의 새 벡터 저장소(vector store)를 만들고, 이전에 다운로드한 로컬 파일 **Expenses_policy.docx**를 업로드하여 저장합니다.
